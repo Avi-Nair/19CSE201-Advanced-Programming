@@ -1,0 +1,9 @@
+l=[12]
+print(l)
+l.append(13)
+l.insert(len(l),14)
+l.insert(0,11)
+l=[10]+l
+l+=[15]
+l.insert(0,9)
+print(l)
